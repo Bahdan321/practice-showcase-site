@@ -10,7 +10,7 @@ const Week2 = () => {
   };
 
   return (
-    <div className="container mx-auto py-8 px-4">
+    <div className="container mx-auto py-8 px-4 mb-24">
       <h1 className="text-3xl font-bold mb-8">Вторая неделя практики</h1>
       <TaskCardWithGithub {...task} cols={2} />
     </div>
