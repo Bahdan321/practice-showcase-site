@@ -36,7 +36,7 @@ const Week1 = () => {
   ];
 
   return (
-    <div className="container mx-auto py-8 px-4 mb-24">
+    <div className="container mx-auto py-8 px-4 xs:mb-24">
       <h1 className="text-3xl font-bold mb-8">Первая неделя практики</h1>
       <div className="md:grid md:gap-8 md:grid-cols-2">
         {tasks.map((task, index) => (

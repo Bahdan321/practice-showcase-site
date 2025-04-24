@@ -28,7 +28,7 @@ const Week3 = () => {
   ];
 
   return (
-    <div className="container mx-auto py-8 px-4 mb-24">
+    <div className="container mx-auto py-8 px-4 xs:mb-24">
       <h1 className="text-3xl font-bold mb-8">Третья неделя практики</h1>
       <div className="md:grid md:gap-8">
         <TaskCardWithGithub {...mobileAppTask} />
